@@ -13,9 +13,11 @@ Winston acorda em uma mansão abandonada, sem memória de como chegou lá. À me
    cd o-despertar-de-winston
 
 2. **Compile o projeto**:
+    ```sh
     dotnet build
 
 3. **Execute o Jogo**:
+    ```sh
     dotnet run
 
 # Requisitos
