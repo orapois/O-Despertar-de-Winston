@@ -38,6 +38,8 @@
             
             public void DisplayChapter()
             {
+
+                
                 
                   
                 chapter.Counter(chapter.title, 200); 
