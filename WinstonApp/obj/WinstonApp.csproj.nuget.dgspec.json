@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\WinstonApp.csproj": {}
+    "E:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\WinstonApp.csproj": {}
   },
   "projects": {
-    "e:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\WinstonApp.csproj": {
+    "E:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\WinstonApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\WinstonApp.csproj",
+        "projectUniqueName": "E:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\WinstonApp.csproj",
         "projectName": "WinstonApp",
-        "projectPath": "e:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\WinstonApp.csproj",
+        "projectPath": "E:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\WinstonApp.csproj",
         "packagesPath": "C:\\Users\\gbabr\\.nuget\\packages\\",
-        "outputPath": "e:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\obj\\",
+        "outputPath": "E:\\Projetos\\C#\\O despertar de Winston\\WinstonApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gbabr\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -12,3 +12,4 @@ e:\Projetos\C#\O despertar de Winston\WinstonApp\obj\Debug\net8.0\refint\Winston
 e:\Projetos\C#\O despertar de Winston\WinstonApp\obj\Debug\net8.0\WinstonApp.pdb
 e:\Projetos\C#\O despertar de Winston\WinstonApp\obj\Debug\net8.0\WinstonApp.genruntimeconfig.cache
 e:\Projetos\C#\O despertar de Winston\WinstonApp\obj\Debug\net8.0\ref\WinstonApp.dll
+e:\Projetos\C#\O despertar de Winston\WinstonApp\obj\Debug\net8.0\WinstonApp.sourcelink.json
