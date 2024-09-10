@@ -9,7 +9,7 @@ Winston acorda em uma mansão abandonada, sem memória de como chegou lá. À me
 ## Como Jogar
 1. **Clone o repositório**:
    ```sh
-   git clone https://github.com/seu-usuario/o-despertar-de-winston.git
+   git clone https://github.com/orapois/o-despertar-de-winston.git
    cd o-despertar-de-winston
 
 2. **Compile o projeto**:
