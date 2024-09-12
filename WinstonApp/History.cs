@@ -10,17 +10,6 @@
             public string description;
             public string[] action;
             public string[] answer;
-
-            public void Counter(string txt, int interval)
-            {
-                foreach (var a in txt)
-                {
-                    Console.Write(a);
-                    Thread.Sleep(interval);
-                }
-                Console.WriteLine();
-            }
-
         }
 
         public class Chapter1
@@ -39,11 +28,11 @@
             public void DisplayChapter()
             {
 
-                
-                
-                  
-                chapter.Counter(chapter.title, 200); 
-                chapter.Counter(chapter.description, 60);
+                Helper.Counter(chapter.title, 200);
+                Helper.Counter(".", 500);
+                Helper.Counter(".", 500);
+                Helper.Counter(".", 500);
+                Helper.Counter(chapter.description, 60);
                 foreach (var act in chapter.action)
                 {
                     Console.WriteLine(act);
@@ -52,7 +41,7 @@
                 a = Console.ReadLine();
                 int ans = Convert.ToInt32(a);
                 ans--;
-                chapter.Counter(chapter.answer[ans], 60);
+                Helper.Counter(chapter.answer[ans], 60);
             }
             
         }
@@ -73,17 +62,20 @@
 
             public void DisplayChapter()
             {
-                chapter.Counter(chapter.title, 100);
-                chapter.Counter(chapter.description, 60);
+                Helper.Counter(chapter.title, 100);
+
+                Helper.Counter("...", 100);
+                Console.WriteLine("./");
+                Helper.Counter(chapter.description, 60);
                 foreach (var act in chapter.action)
                 {
-                    chapter.Counter(act, 100);
+                    Helper.Counter(act, 100);
                 }
                 string a;
                 a = Console.ReadLine();
                 int ans = Convert.ToInt32(a);
                 ans--;
-                chapter.Counter(chapter.answer[ans], 60);
+                Helper.Counter(chapter.answer[ans], 60);
             }
         }
     }
