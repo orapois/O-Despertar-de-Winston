@@ -3,6 +3,8 @@
 ## Descrição
 "O Despertar de Winston" é um jogo de terror interativo desenvolvido para ser jogado via terminal. O jogo é todo escrito em C#.
 
+Sinta como se estivesse lendo um livro de terror imersivo e intrigante.
+
 ## Sinopse
 Winston acorda em uma mansão abandonada, sem memória de como chegou lá. À medida que explora o local, ele descobre segredos sombrios sobre a família que viveu ali e a maldição que assombra a mansão. Com a ajuda de pistas e itens encontrados ao longo do caminho, Winston deve realizar rituais de proteção e enfrentar entidades malignas para escapar com vida. No entanto, mesmo após quebrar a maldição, ele descobre que o verdadeiro horror pode estar apenas começando.
 
