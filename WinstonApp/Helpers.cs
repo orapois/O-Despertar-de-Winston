@@ -31,7 +31,7 @@
 
                 while(a != "1" & a != "2")
                 {
-                    
+
                     Console.WriteLine("1 - Iniciar");
                     Console.WriteLine("2 - Fechar");
                     a = Console.ReadLine();
@@ -51,6 +51,47 @@
                     }
                 }
 
+            }
+
+            public static void DisplayChapter(string title, string description, string[] action, string[] answer)
+            {
+                Helper.Counter(title, 100);
+
+                Helper.Counter("\n", 500);
+                Helper.Counter(description, 60);
+                foreach (var act in action)
+                {
+                    Helper.Counter(act, 100);
+                }
+                Helper.Counter("\n Digite a opção escolhida", 100);
+                string a = "0";
+
+                while(a != "1" & a != "2")
+                {   
+                    a = Console.ReadLine();
+
+                    if(a.Equals("1"))
+                    {
+                        Helper.Counter(answer[0], 60);        
+                    }
+                    else if(a.Equals("2"))
+                    {
+                        Helper.Counter(answer[1], 60);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Você digitou uma opção incorreta.");
+                        Helper.Counter("...", 100);
+                    
+                        foreach (var act in action)
+                        {
+                            Helper.Counter(act, 100);
+                        }        
+                    }
+                    
+                }
+                Helper.Counter("\n Aperte qualquer tecla para continuar...", 100);
+                Console.ReadLine();
             }
         }
         
